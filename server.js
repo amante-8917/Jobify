@@ -20,7 +20,7 @@ import { fileURLToPath } from "url";
 import path from "path";
 
 //middleware
-import errorHandlerMiddleware from "./middleware/errorhandlerMiddleware.js";
+import errorHandlerMiddleware from "./middleware/errorHandlerMiddleware.js";
 import { authenticateUser } from "./middleware/authMiddleware.js";
 
 cloudinary.config({
